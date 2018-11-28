@@ -1,1 +1,2 @@
 # SFML_protoGraph
+# protoGraphingCalculator
