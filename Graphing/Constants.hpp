@@ -1,6 +1,6 @@
 //
 //  Constants.hpp
-//  TS
+//
 //
 //  Created by Winnie Jeng on 11/27/18.
 //  Copyright © 2018 Winnie Jeng. All rights reserved.
@@ -11,8 +11,8 @@
 
 const float SCREEN_WIDTH = 1400;
 const float SCREEN_HEIGHT = 800;
-
-const float WORK_PANEL = SCREEN_WIDTH * 4/5;
+//DISPLAY HEIGHT == SCREEN HEIGHT
+const float DISPLAY_WIDTH = SCREEN_WIDTH * 4/5;
 const float SIDE_BAR = SCREEN_WIDTH * 1/5;
 
 const int SCALESIZE = 20; // small number zoom out big number zoom in

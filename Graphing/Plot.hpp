@@ -11,7 +11,7 @@
 
 #include <SFML/Graphics.hpp>
 #include "ControlPanel.hpp"
-#include "Display_Panel.hpp"
+#include "DisplayPanel.hpp"
 #include "Constants.hpp"
 #include <iostream>
 #include "ResourcePath.hpp"
@@ -29,7 +29,7 @@ public:
 private:
     sf::RenderWindow window;
     sf::CircleShape mousePoint;         //The little red dot
-    Display_Panel displayPanel;                      //container for all the Plotted objects
+    DisplayPanel displayPanel;                      //container for all the Plotted objects
     int command;                        //command to send to system
     sf::Font font;                      //font to draw on main screen
     sf::Text myTextLabel;               //text to draw on main screen

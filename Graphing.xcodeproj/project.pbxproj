@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2DB82B5C21AE27600085B30E /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DB82B4B21AE275F0085B30E /* ResourcePath.mm */; };
-		2DB82B5F21AE27600085B30E /* Constants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DB82B4E21AE27600085B30E /* Constants.cpp */; };
-		2DB82B6221AE27600085B30E /* Display_Panel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DB82B5521AE27600085B30E /* Display_Panel.cpp */; };
+		2DB82B6221AE27600085B30E /* DisplayPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DB82B5521AE27600085B30E /* DisplayPanel.cpp */; };
 		2DB82B6521AE27600085B30E /* ControlPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DB82B5821AE27600085B30E /* ControlPanel.cpp */; };
 		2DB82B6621AE27610085B30E /* Plot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DB82B5A21AE27600085B30E /* Plot.cpp */; };
 		2DB82B6721AE27610085B30E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DB82B5B21AE27600085B30E /* main.cpp */; };
@@ -17,18 +16,17 @@
 
 /* Begin PBXFileReference section */
 		2DB82B1621AE27110085B30E /* Graphing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graphing.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DB82B1A21AE27110085B30E /* Graphing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Graphing-Info.plist"; sourceTree = "<group>"; };
-		2DB82B4B21AE275F0085B30E /* ResourcePath.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
-		2DB82B4E21AE27600085B30E /* Constants.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Constants.cpp; sourceTree = "<group>"; };
-		2DB82B5021AE27600085B30E /* Display_Panel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Display_Panel.hpp; path = /Users/winnie/Documents/Graphing/Graphing/Display_Panel.hpp; sourceTree = "<absolute>"; };
-		2DB82B5121AE27600085B30E /* ResourcePath.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		2DB82B1A21AE27110085B30E /* Graphing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Graphing-Info.plist"; path = "/Users/winnie/Desktop/SFML_protoGraph/Graphing/Graphing-Info.plist"; sourceTree = "<absolute>"; };
+		2DB82B4B21AE275F0085B30E /* ResourcePath.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ResourcePath.mm; path = /Users/winnie/Desktop/SFML_protoGraph/Graphing/ResourcePath.mm; sourceTree = "<absolute>"; };
+		2DB82B5021AE27600085B30E /* DisplayPanel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DisplayPanel.hpp; path = /Users/winnie/Documents/Graphing/Graphing/DisplayPanel.hpp; sourceTree = "<absolute>"; };
+		2DB82B5121AE27600085B30E /* ResourcePath.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ResourcePath.hpp; path = /Users/winnie/Desktop/SFML_protoGraph/Graphing/ResourcePath.hpp; sourceTree = "<absolute>"; };
 		2DB82B5221AE27600085B30E /* ControlPanel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ControlPanel.hpp; path = /Users/winnie/Documents/Graphing/Graphing/ControlPanel.hpp; sourceTree = "<absolute>"; };
-		2DB82B5421AE27600085B30E /* Constants.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Constants.hpp; sourceTree = "<group>"; };
-		2DB82B5521AE27600085B30E /* Display_Panel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Display_Panel.cpp; sourceTree = "<group>"; };
+		2DB82B5421AE27600085B30E /* Constants.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Constants.hpp; path = /Users/winnie/Desktop/SFML_protoGraph/Graphing/Constants.hpp; sourceTree = "<absolute>"; };
+		2DB82B5521AE27600085B30E /* DisplayPanel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DisplayPanel.cpp; path = /Users/winnie/Desktop/SFML_protoGraph/Graphing/DisplayPanel.cpp; sourceTree = "<absolute>"; };
 		2DB82B5821AE27600085B30E /* ControlPanel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ControlPanel.cpp; path = /Users/winnie/Documents/Graphing/Graphing/ControlPanel.cpp; sourceTree = "<absolute>"; };
 		2DB82B5921AE27600085B30E /* Plot.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Plot.hpp; path = /Users/winnie/Documents/Graphing/Graphing/Plot.hpp; sourceTree = "<absolute>"; };
 		2DB82B5A21AE27600085B30E /* Plot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Plot.cpp; path = /Users/winnie/Documents/Graphing/Graphing/Plot.cpp; sourceTree = "<absolute>"; };
-		2DB82B5B21AE27600085B30E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2DB82B5B21AE27600085B30E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = /Users/winnie/Desktop/SFML_protoGraph/Graphing/main.cpp; sourceTree = "<absolute>"; };
 		2DB82B6821AE27890085B30E /* arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = arial.ttf; path = /Users/winnie/Documents/Graphing/Graphing/arial.ttf; sourceTree = "<absolute>"; };
 		2DB82B6921AE27890085B30E /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "/Users/winnie/Documents/Graphing/Graphing/Roboto-Thin.ttf"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -58,27 +56,28 @@
 				2DB82B1621AE27110085B30E /* Graphing.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
+			path = /Users/winnie/Desktop/SFML_protoGraph;
+			sourceTree = "<absolute>";
 		};
 		2DB82B1821AE27110085B30E /* Graphing */ = {
 			isa = PBXGroup;
 			children = (
-				2DB82B4E21AE27600085B30E /* Constants.cpp */,
-				2DB82B5421AE27600085B30E /* Constants.hpp */,
-				2DB82B5821AE27600085B30E /* ControlPanel.cpp */,
-				2DB82B5221AE27600085B30E /* ControlPanel.hpp */,
-				2DB82B5521AE27600085B30E /* Display_Panel.cpp */,
-				2DB82B5021AE27600085B30E /* Display_Panel.hpp */,
-				2DB82B5B21AE27600085B30E /* main.cpp */,
-				2DB82B5A21AE27600085B30E /* Plot.cpp */,
-				2DB82B5921AE27600085B30E /* Plot.hpp */,
 				2DB82B5121AE27600085B30E /* ResourcePath.hpp */,
 				2DB82B4B21AE275F0085B30E /* ResourcePath.mm */,
+				2DB82B5421AE27600085B30E /* Constants.hpp */,
+				2DB82B5B21AE27600085B30E /* main.cpp */,
+				2DB82B5821AE27600085B30E /* ControlPanel.cpp */,
+				2DB82B5221AE27600085B30E /* ControlPanel.hpp */,
+				2DB82B5521AE27600085B30E /* DisplayPanel.cpp */,
+				2DB82B5021AE27600085B30E /* DisplayPanel.hpp */,
+				2DB82B5A21AE27600085B30E /* Plot.cpp */,
+				2DB82B5921AE27600085B30E /* Plot.hpp */,
 				2DB82B2021AE27110085B30E /* Resources */,
 				2DB82B1921AE27110085B30E /* Supporting Files */,
 			);
-			path = Graphing;
-			sourceTree = "<group>";
+			name = Graphing;
+			path = /Users/winnie/Desktop/SFML_protoGraph/Graphing;
+			sourceTree = "<absolute>";
 		};
 		2DB82B1921AE27110085B30E /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -86,7 +85,8 @@
 				2DB82B1A21AE27110085B30E /* Graphing-Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
+			path = /Users/winnie/Desktop/SFML_protoGraph/Graphing;
+			sourceTree = "<absolute>";
 		};
 		2DB82B2021AE27110085B30E /* Resources */ = {
 			isa = PBXGroup;
@@ -95,7 +95,8 @@
 				2DB82B6921AE27890085B30E /* Roboto-Thin.ttf */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
+			path = /Users/winnie/Desktop/SFML_protoGraph/Graphing;
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -184,11 +185,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DB82B6221AE27600085B30E /* Display_Panel.cpp in Sources */,
+				2DB82B6221AE27600085B30E /* DisplayPanel.cpp in Sources */,
 				2DB82B5C21AE27600085B30E /* ResourcePath.mm in Sources */,
 				2DB82B6721AE27610085B30E /* main.cpp in Sources */,
 				2DB82B6521AE27600085B30E /* ControlPanel.cpp in Sources */,
-				2DB82B5F21AE27600085B30E /* Constants.cpp in Sources */,
 				2DB82B6621AE27610085B30E /* Plot.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
