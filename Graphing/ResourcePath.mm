@@ -28,6 +28,7 @@
 ////////////////////////////////////////////////////////////
 #include "ResourcePath.hpp"
 #import <Foundation/Foundation.h>
+#include <iostream>
 
 ////////////////////////////////////////////////////////////
 std::string resourcePath(void)
@@ -45,7 +46,7 @@ std::string resourcePath(void)
         NSString* path = [bundle resourcePath];
         rpath = [path UTF8String] + std::string("/");
     }
-
+    
     [pool drain];
 
     return rpath;
